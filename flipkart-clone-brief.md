@@ -47,21 +47,21 @@
 
 **Desktop view:**
 
-![desktop-view](images/desktop-view1.png) \
+![desktop-view](images/desktop-view1.png) 
 
-![desktop-view](images/desktop-view2.png) \
+![desktop-view](images/desktop-view2.png) 
 
 **Ipad Air view:**
 
-![ipad-view](images/ipad-view1.png) \
+![ipad-view](images/ipad-view1.png) 
 
-![ipad-view](images/ipad-view2.png) \
+![ipad-view](images/ipad-view2.png) 
 
 **Iphone XR view:**
 
-![iphone-view](images/iphone-view1.png) \
+![iphone-view](images/iphone-view1.png) 
 
-![iphone-view](images/iphone-view2.png) \
+![iphone-view](images/iphone-view2.png) 
 
 
 

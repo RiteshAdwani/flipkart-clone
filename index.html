@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Flipkart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/86079d168d.css" crossorigin="anonymous"> -->
+    <script src="https://kit.fontawesome.com/86079d168d.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Full Content Starts -->
+    <div class="main-content">
+        <!-- Navbar -->
+        <section class="navbar-section">
+            <div class="navbar">
+
+                <div class="nav-left">
+                    <div class="navbar-item flipkart-logo" style="margin-right:0;">
+                        <a href="#">
+                            <img class="flipkart-logo-img" width="75" src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png" alt="Flipkart" title="Flipkart"/>
+                        </a>
+                        <a class="explore-plus-logo" href="#">Explore 
+                            <span class="plus">Plus</span>
+                            <img width="10" src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png" />
+                        </a>
+                    </div>
+    
+                    <div class="navbar-item search-bar" style="margin-left: 0;">
+                       <form action="#">
+                        <div class="search-input">
+                            <input type="text" placeholder="Search for products, brands and more" />
+                            <button type="button" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                       </form>
+                    </div>
+                </div>
+
+                
+                <div class="nav-right">
+                    <div class="navbar-item">
+                        <a href="#" class="login-link" style="color:#2874f0;">Login</a>
+                    </div>
+    
+                    <div class="navbar-item dropdown-items" style="display: flex;">
+                        <div class="more-dropdown">
+                            More 
+                            <div class="more-dropdown-content">
+                                <a href="#"><p><span><i class="fa-solid fa-bell more-dropdown-icons"></i></span>Notification Preferences</p></a>
+                                <a href="#"><p><span><i class="fa-solid fa-headset more-dropdown-icons"></i></span>24x7 Customer Care</p></a>
+                                <a href="#"><p><span><i class="fa-solid fa-arrow-trend-up more-dropdown-icons"></i>Advertisement</p></a>
+                                <a href="#"><p><span><i class="fa-solid fa-download more-dropdown-icons"></i></span>Download App</p></a>
+                            </div>
+                        </div> 
+                        <div class="dropdown-icon">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+    
+                    <div class="navbar-item" style="display: flex;">
+                        <div class="cart-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="cart-text">
+                            Cart
+                        </div>
+                    </div>
+    
+                </div>    
+            </div>
+        </section>
+        <!-- Navbar ends -->
+
+        <!-- Categories -->
+
+        <section class="categories-section">
+            <div class="categories">
+                <div class="category-item">
+                    <img class="top-offers-img category-img-item" alt="Top Offers" src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100">
+                    <p class="category-name">Top Offers</p>
+                </div>   
+
+                <div class="category-item">
+                    <img class="grocery-img category-img-item" alt="Grocery" src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100">
+                    <p class="category-name">Grocery</p>
+                </div> 
+
+                <div class="category-item">
+                    <img class="mobile-img category-img-item" alt="Mobiles" src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100">
+                    <p class="category-name">Mobiles</p>
+                </div> 
+
+                <div class="category-item">
+                    <img class="fashion-img category-img-item" alt="Fashion" src="https://rukminim1.flixcart.com/flap/128/128/image/c12afc017e6f24cb.png?q=100">
+                    
+                        <p class="category-name">Fashion
+                            <span>
+                                <i class="fa-solid fa-angle-down drop"></i>
+                            </span>
+                        </p>
+                </div>
+                   
+
+                <div class="category-item">
+                    <img class="electronics-img category-img-item" alt="Electronics" src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100">
+                    <p class="category-name">Electronics
+                        <span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </span>
+                    </p>
+                </div> 
+
+                <div class="category-item">
+                    <img class="home-img category-img-item" alt="Home" src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100">
+                    
+                    <p class="category-name">Home
+                        <span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </span>
+                    </p>
+                    
+                </div> 
+
+                <div class="category-item">
+                    <img class="appliances-img category-img-item" alt="Appliances" src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100">
+                    <p class="category-name">Appliances
+                        <span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </span>
+                    </p>
+                </div> 
+
+                <div class="category-item">
+                    <img class="travel-img category-img-item" alt="Travel" src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100">
+                    <p class="category-name">Travel</p>
+                </div>
+                
+                <div class="category-item">
+                    <img class="beauty-toys-more-img category-img-item" alt="Beauty, Toys &amp; More" src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100">
+                    <p class="category-name">Beauty, Toys and More
+                        <span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </span>
+                    </p>
+                </div> 
+            </div>
+        </section>
+        <!-- Categories section ends -->
+
+
+      <div class="display-flex">
+          <!-- Deals and Ad Section -->
+          <section class="deals-and-ad-section">
+            <!-- Deal items -->
+            <div class="deals">
+                <!-- Deal Header-->
+                <div class="deals-header">
+
+                    <div class="deals-header-timer">
+                        <p class="deals-header-text">Deals of the day</p>
+
+                    <div class="timer-icon">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+
+                    <div class="time-remaining">
+                        <p>22:07:36 left</p>
+                    </div>
+                    </div>
+
+                    <div class="view-all">
+                        <button type="button" class="view-all-btn">View All</button>
+                    </div>
+                    
+                </div>
+                
+                <!-- Deal Header ends -->
+
+                <!-- Deal Body -->
+                <div class="deals-body">
+                    <div class="deals-item">
+                        <img src="images/watch.jpeg" alt="Wrist watch"  class="deal-img">
+                        
+                        <div class="deal-name">
+                            Casio, Fastrack, Sonata...
+                        </div>
+                        <div class="deal-price">
+                            Upto 70% off + extra 10% off
+                        </div>
+                        <p class="deal-description">
+                            Knockout Deals!
+                        </p>
+                    </div>
+    
+                    <div class="deals-item">
+                        <img src="images/temple.jpeg" alt="Home Temple" class="deal-img">
+                        
+                        <div class="deal-name">
+                            Home Temples & more
+                        </div>
+                        <div class="deal-price">
+                            Extra 10% off
+                        </div>
+                        <p class="deal-description">
+                            Space Saving Furniture
+                        </p>
+                    </div>
+    
+                    <div class="deals-item">
+                        <img src="images/tablet-case.jpeg" alt="Tablet cases" class="deal-img">
+                        
+                        <div class="deal-name">
+                            Premium Tablet Cases
+                        </div>
+                        <div class="deal-price">
+                            Extra 10% off
+                        </div>
+                        <p class="deal-description">
+                            For all top models
+                        </p>
+                    </div>
+    
+                    <div class="deals-item">
+                        <img src="images/home-decor.jpeg" alt="Home Decor" class="deal-img">
+                        
+                        <div class="deal-name">
+                            Best of Home Decor
+                        </div>
+                        <div class="deal-price">
+                            From ₹79
+                        </div>
+                        <p class="deal-description">
+                            Lowest price ever
+                        </p>
+                    </div>
+    
+                    <div class="deals-item"> 
+                        <img src="images/tshirt.jpeg" alt="Tshirt" class="deal-img">
+                        
+                        <div class="deal-name">
+                            Men's Fashion
+                        </div>
+                        <div class="deal-price">
+                            From ₹249 + extra 10% off
+                        </div>
+                        <p class="deal-description">
+                            Cool brands for programmers
+                        </p>
+                        
+                    </div>
+    
+                    <div class="deals-item">
+                        <img src="images/iphone.jpeg" alt="Iphone 13" class="deal-img">
+                        
+                        <div class="deal-name">
+                            Iphone 13
+                        </div>
+                        <div class="deal-price">
+                            From ₹96000 onwards
+                        </div>
+                        <p class="deal-description">
+                            Amazing offers
+                        </p>
+                    </div>
+    
+                    <div class="deals-item">
+                        <img src="images/nothing.jpeg" alt="Nothing 1" class="deal-img">
+                        
+                        <div class="deal-name">
+                            Nothing 1
+                        </div>
+                        <div class="deal-price">
+                            From ₹26000 onwards
+                        </div>
+                        <p class="deal-description">
+                            Season-end deals
+                        </p>
+                    </div>
+
+                </div>
+                <!-- Deal Body ends -->
+            </div>
+            <!-- Deal items end -->
+
+            <!-- Advertisement -->
+            <div class="adv">
+                <div class="adv-img-wrapper">
+                    <img src="images/advertisement.png" alt="Advertisement" class="adv-img">
+                </div>
+            </div>
+            <!-- Advertisement ends -->
+        </section>
+        <!-- Deals and Ad Section ends -->
+
+        <!-- Other deals section -->
+
+        <section class="other-deals-section">
+            <div class="other-deals">
+                <!-- <div class="deals"> -->
+                    <!-- Deal Header for other deals-->
+                    <div class="deals-header">
+                        <div>
+                            <p class="other-deals-header-text">Books and Music Instruments</p>
+    
+                            <p class="shop-now">Shop now!</p>
+                        </div>
+                        
+                        <div class="view-all">
+                            <button type="button" class="view-all-btn">View All</button>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- Deal Header for other deals ends -->
+    
+                    <!-- Other Deals Body -->
+                    <div class="deals-body">
+                        <div class="deals-item">
+                            <img src="images/guitar.jpeg" alt="Guitar"  class="deal-img">
+                            
+                            <div class="deal-name">
+                                Guitars
+                            </div>
+                            <div class="deal-price">
+                                Starting at ₹2500
+                            </div>
+                            <p class="deal-description">
+                                By Revel
+                            </p>
+                        </div>
+        
+                        <div class="deals-item">
+                            <img src="images/book.jpeg" alt="Book" class="deal-img">
+                            
+                            <div class="deal-name">
+                                Self-help books
+                            </div>
+                            <div class="deal-price">
+                                Extra 10% off
+                            </div>
+                            <p class="deal-description">
+                                Shop now!
+                            </p>
+                        </div>
+        
+                        <div class="deals-item">
+                            <img src="images/piano.jpeg" alt="Piano" class="deal-img">
+                            
+                            <div class="deal-name">
+                                Pianos
+                            </div>
+                            <div class="deal-price">
+                                Get special discounts
+                            </div>
+                            <p class="deal-description">
+                                By Sunshine
+                            </p>
+                        </div>
+        
+                        <div class="deals-item">
+                            <img src="images/novel.jpeg" alt="Novel" class="deal-img">
+                            
+                            <div class="deal-name">
+                                Novels
+                            </div>
+                            <div class="deal-price">
+                                Upto 30% off
+                            </div>
+                            <p class="deal-description">
+                                Amazing deals
+                            </p>
+                        </div>
+        
+                        <div class="deals-item"> 
+                            <img src="images/tabla.jpeg" alt="Tabla" class="deal-img">
+                            
+                            <div class="deal-name">
+                                Tablas
+                            </div>
+                            <div class="deal-price">
+                                Starts at ₹4000
+                            </div>
+                            <p class="deal-description">
+                                Shop now!
+                            </p>
+                            
+                        </div>
+        
+                        <div class="deals-item">
+                            <img src="images/comic.jpeg" alt="Comic" class="deal-img">
+                            
+                            <div class="deal-name">
+                                Comic books
+                            </div>
+                            <div class="deal-price">
+                                Starts at ₹150
+                            </div>
+                            <p class="deal-description">
+                                Grab yours
+                            </p>
+                        </div>
+        
+                        <div class="deals-item">
+                            <img src="images/flute.jpeg" alt="Flutes" class="deal-img">
+                            
+                            <div class="deal-name">
+                                Flutes
+                            </div>
+                            <div class="deal-price">
+                                Extra 15% off
+                            </div>
+                            <p class="deal-description">
+                                Shop now!
+                            </p>
+                        </div>
+
+                        <div class="deals-item">
+                            <img src="images/other.jpeg" alt="Other" class="deal-img">
+                            
+                            <div class="deal-name">
+                                Other items
+                            </div>
+                            <div class="deal-price">
+                                Grab amazing offers
+                            </div>
+                            <p class="deal-description">
+                                Shop now!
+                            </p>
+                        </div>
+    
+                    </div>
+                    <!-- Other Deals Body ends -->
+                <!-- </div> -->
+            
+            </div>
+        </section>
+      </div>
+        <!-- Other deals section ends -->
+    </div>
+    <!-- Full Content Ends -->
+</body>
+
+</html>
